@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package payment;
 
-option go_package = "project/proto/paymentpb";
+option go_package = "payment-service/proto/paymentpb";
 
 service PaymentService {
   rpc ProcessPayment (PaymentRequest) returns (PaymentResponse);

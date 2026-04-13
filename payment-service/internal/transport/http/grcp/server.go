@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"payment-service/internal/usecase"
-	"project/proto/paymentpb"
+	"payment-service/proto/paymentpb"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
